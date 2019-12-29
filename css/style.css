@@ -1,0 +1,131 @@
+
+body {
+    position: static;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #feda4a;
+    background: url("../img/1-4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1 {
+    font-size: 75px;
+    text-align: center;
+    text-shadow: #FFEBCD 3px 5px 4px;  
+    
+}
+
+#listAll {
+    position: absolute;
+    left: 50%;
+    width: 780px;
+    margin-left: -400px;
+}
+
+
+#list {
+    margin-bottom: 20px;
+    padding: 0;
+    text-shadow: #cad5e2 0,5px 0,5px 0,5px;
+}
+#list li {
+    font-size: 30px;
+    text-align: center;
+    max-width: fit-content;
+    margin: 10px auto;
+}
+#list li:hover {
+    color: #90EE90;
+    text-shadow: 20px 20px 20px;
+}
+#next {
+    box-shadow: 25px 10px 10px;
+    float: right;
+    
+}
+#back{
+    box-shadow: -25px 10px 10px;
+}
+#next,
+#back
+ {
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: 'Pathway Gothic One', serif;
+    background: rgba(0, 0, 41, 0.10);
+    border: 0px solid rgba(0, 0, 41, 0.05);
+    outline: all;
+    color: #EE82EE;
+    
+}
+#next:hover{
+    color:  #FFE4B5;
+    text-shadow: 20px 20px 20px;
+}
+#back:hover{
+    color:  #FFE4B5;
+    text-shadow: 20px 20px 20px;
+}
+
+.table {
+    background: #6495ED;
+    position: absolute;
+    width: 780px;
+    height: 60px;
+    z-index: 2;
+    top: 17%;
+    left: 52%;
+    margin-left: -30%;
+    border: 2px solid #CD5C5C;
+}
+.covert {
+    display: none;
+}
+#exitButton {
+    border: none;
+    border-left: 1px solid #CD5C5C;
+    border-bottom: 2px solid #CD5C5C;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #FFFACD;
+    background: rgba(0, 100, 50, 0.50);
+    outline: none;
+    width: 780px;
+    height: 60px;
+    text-shadow: 20px 20px 20px;
+    box-shadow: 0px 25px 20px;
+
+}
+#exitButton:hover{
+    color:  #EE82EE;
+    text-shadow: 20px 20px 20px;
+}
+.movies {
+    padding: 0;
+}
+.table table {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px auto;
+    border: 2px solid black;
+}
+.table th {
+    background: #6495ED;
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+.heroInfo {
+    border: 2px solid black;
+    padding: 10px 10px;
+    font-size: 18px;
+    background: #6495ED;
+}
+
